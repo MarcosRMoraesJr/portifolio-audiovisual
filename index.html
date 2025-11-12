@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcos Moraes - Portfólio Audiovisual</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">MM<span class="logo-dot">.</span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#trabalhos">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                TRANSFORMANDO IDEIAS EM<br>
+                <span class="hero-title-blue">HISTÓRIAS VISUAIS</span>
+            </h1>
+            <p class="hero-subtitle">
+                Editor de vídeo e humorista com 12 anos de experiência em comédia. Unindo técnica de edição e sensibilidade para o humor, criando conteúdos que cativam, emocionam e fazem rir.
+            </p>
+            <div class="hero-buttons">
+                <a href="#trabalhos" class="btn btn-primary">Ver Meus Trabalhos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <img src="f3f5d79c-6feb-42ff-8374-428f94b91147.jpg" alt="Marcos Moraes">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2 class="about-title">Sobre Mim</h2>
+                    <div class="title-underline"></div>
+                    <p>
+                        Olá! Sou editor de vídeo há mais de 4 anos, mas a verdade é que eu já sabia contar histórias muito antes de aprender a editar. Como <strong>comediante de stand up, improvisador e mestre de RPG</strong> há 12 anos, descobri que timing, ritmo e como prender atenção são habilidades universais - e elas funcionam tanto no palco quanto na timeline.
+                    </p>
+                    <p>
+                        Domino ferramentas como <strong>Adobe Premiere Pro, DaVinci Resolve, Photoshop e Capcut</strong>, mas o que realmente diferencia meu trabalho é saber <strong>quando cortar, quando deixar respirar e quando fazer a piada funcionar</strong>. Já editei de tudo: shows de stand up, espetáculos de improviso, gravações de dança, vídeos institucionais e conteúdos para redes sociais. E sim, todos com a mesma atenção ao detalhe que você esperaria de alguém que já teve que salvar uma piada que não estava funcionando ao vivo.
+                    </p>
+                    <p>
+                        Minha especialidade? Transformar material bruto em conteúdo que não apenas informa, mas <strong>engaja e diverte</strong>. Porque depois de 12 anos fazendo rir, eu aprendi que a melhor edição é aquela que prende o público do começo ao fim - seja um vídeo corporativo ou um reel de comédia.
+                    </p>
+                    <p>
+                        Se você precisa de alguém que entende tanto de técnica quanto de timing, ritmo e storytelling, vamos conversar. Prometo que a reunião será mais interessante que a maioria das reuniões de edição que você já teve.
+                    </p>
+                    <a href="#contato" class="btn btn-outline">Vamos Conversar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="trabalhos" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Meu Portfólio</h2>
+            <p class="section-subtitle">Uma seleção dos meus trabalhos mais recentes.</p>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="danca">Dança</button>
+                <button class="filter-btn" data-filter="redes-sociais">Redes Sociais</button>
+                <button class="filter-btn" data-filter="cursos">Cursos Online</button>
+                <button class="filter-btn" data-filter="gameplay">Gameplay</button>
+            </div>
+            <div class="portfolio-grid" id="portfolioGrid">
+                <!-- Portfolio items will be dynamically added via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2 class="contact-title">Vamos criar algo incrível juntos?</h2>
+            <p class="contact-description">
+                Se você tem um projeto em mente ou apenas quer dizer olá, sinta-se à vontade para entrar em contato.
+            </p>
+            <div class="contact-email">
+                <a href="mailto:contato.marcosmoraes2@gmail.com" class="email-link">contato.marcosmoraes2@gmail.com</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/marcos-r-moraes/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/tavernadomarcos/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+                <a href="https://wa.me/5511964292117" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="WhatsApp">
+                    <svg width="24" height="24" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="16" cy="16" r="14" stroke="currentColor" fill="none"></circle>
+                        <path d="M21.5 17.5c-.3-.2-1.8-.9-2.1-1s-.5-.2-.7.1c-.3.3-.8 1-1 1.2s-.4.2-.7.1c-.8-.3-1.5-.7-2.1-1.3s-1-1.2-1.3-2.1c-.1-.3 0-.5.1-.7.1-.1.3-.3.5-.5.2-.2.3-.3.4-.5s.1-.4 0-.6c0-.2-.5-1.3-.7-1.8-.2-.5-.4-.5-.6-.5h-.6c-.2 0-.6.1-.9.4s-1.1 1.1-1.1 2.7.9 3.1 1.1 3.3c.1.2 1.8 2.7 4.4 3.8 1.6.7 2.7.8 3.4.7.5-.1 1.1-.4 1.5-.9.2-.3.3-.6.2-.8s-.2-.3-.5-.5z"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Marcos Moraes. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Babel Standalone for GitHub Pages compatibility -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script>
+        // Fallback: if Babel fails, try to load script normally after a delay
+        setTimeout(function() {
+            if (document.getElementById('portfolioGrid') && document.getElementById('portfolioGrid').children.length === 0) {
+                console.warn('Babel may not have processed script.js, trying fallback...');
+                var script = document.createElement('script');
+                script.src = 'script.js';
+                document.body.appendChild(script);
+            }
+        }, 1000);
+    </script>
+    <script type="text/babel" src="script.js"></script>
+</body>
+</html>
+
