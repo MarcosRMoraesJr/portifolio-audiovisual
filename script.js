@@ -63,8 +63,8 @@ const portfolioData = [
         title: 'Sarau Hana Hassani',
         description: 'Festival de dança feito dentro do estúdio Hana Hassani, onde foi feito somente correção de cor e som do material bruto.',
         category: 'danca',
-        youtubeId: null,
-        thumbnail: '6IuIh9s9rGI',
+        youtubeId: '6IuIh9s9rGI',
+        thumbnail: null,
         link: 'https://youtu.be/6IuIh9s9rGI'
     },
     {
