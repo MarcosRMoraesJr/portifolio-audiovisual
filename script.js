@@ -42,6 +42,15 @@ const portfolioItems = [];
 const portfolioData = [
     {
         id: 1,
+        title: 'Festival "Místicos Hana Hassani"',
+        description: 'Gravação, edição e correção de cor do festival, utilizando a câmera Osmo Pocket 3 e T5i da Canon. Música com som estourado, pois foi enviado dessa forma para o serviço.',
+        category: 'danca',
+        youtubeId: 'eKkv0rmv2bM', // Cole o ID do vídeo do YouTube aqui (ex: 'dQw4w9WgXcQ')
+        thumbnail: null, // Ou adicione URL da imagem de capa aqui
+        link: 'https://youtu.be/eKkv0rmv2bM' // Link para o vídeo completo (opcional)
+    },
+    {
+        id: 2,
         title: 'Festival "Contos, Lendas e Divindades Que Marcaram O Mundo"',
         description: 'Gravação, edição e correção de cor do festival, com foco em movimento e expressão corporal.',
         category: 'danca',
@@ -50,16 +59,16 @@ const portfolioData = [
         link: 'https://youtu.be/1q9vVxDW_X8' // Link para o vídeo completo (opcional)
     },
     {
-        id: 2,
-        title: 'Gameplay de Minecraft - "Esse Sou Eu"',
-        description: 'Gameplay feita pelo pedido do cliente, onde foi feito a decupagem de 2 horas de gameplay e colocado excesso de piadas e memes.',
-        category: 'gameplay',
-        youtubeId: 'DNSII3u8_PE',
+        id: 3,
+        title: 'Análise sobre Heartstopper',
+        description: 'Vídeo feito para o cliente Taislan Alvarenga, onde foi feito a decupagem, edição e correção de cor.',
+        category: 'cultura-pop',
+        youtubeId: 'PvWORFKm4kE',
         thumbnail: null,
-        link: 'https://youtu.be/DNSII3u8_PE'
+        link: 'https://youtu.be/PvWORFKm4kE'
     },
     {
-        id: 3,
+        id: 4,
         title: 'Sarau Hana Hassani',
         description: 'Festival de dança feito dentro do estúdio Hana Hassani, onde foi feito somente correção de cor e som do material bruto.',
         category: 'danca',
@@ -68,7 +77,7 @@ const portfolioData = [
         link: 'https://youtu.be/6IuIh9s9rGI'
     },
     {
-        id: 4,
+        id: 5,
         title: 'Vídeo aula de medicina',
         description: 'Edição de vídeo e correção de cor para plataforma de ensino voltado a medicina.',
         category: 'cursos',
@@ -77,7 +86,7 @@ const portfolioData = [
         link: 'https://youtu.be/6ozAGjBTbGc'
     },
     {
-        id: 5,
+        id: 6,
         title: 'Corte de vídeo 20 fãs de Naruto contra 1 fã de One Piece',
         description: 'Cortes e edições para rede social do debate da Netflix.',
         category: 'redes-sociais',
@@ -86,7 +95,7 @@ const portfolioData = [
         link: 'https://www.instagram.com/p/DOlMbYtCEHC/'
     },
     {
-        id: 6,
+        id: 7,
         title: 'Stand Up Comedy',
         description: 'Corte e correção de cor de stand up comedy para rede social.',
         category: 'redes-sociais',
@@ -95,15 +104,209 @@ const portfolioData = [
         link: 'https://www.instagram.com/p/DEqMPT7Se4L/'
     },
     {
-        id: 7,
-        title: 'Análise sobre Heartstopper',
-        description: 'Vídeo feito para o cliente Taislan Alvarenga, onde foi feito a decupagem, edição e correção de cor.',
-        category: 'cursos',
-        youtubeId: 'PvWORFKm4kE',
+        id: 8,
+        title: 'Compilado de gameplay - Cerol',
+        description: 'Gameplay feita pelo pedido do cliente, onde foi feito a decupagem de 8 horas de gameplay e colocando os melhores momentos das lives',
+        category: 'gameplay',
+        youtubeId: 'Xka5jRICj8U',
         thumbnail: null,
-        link: 'https://youtu.be/PvWORFKm4kE'
+        link: 'https://youtu.be/Xka5jRICj8U'
+    },
+    {
+        id: 9,
+        title: 'Gameplay de Minecraft - "Esse Sou Eu"',
+        description: 'Gameplay feita pelo pedido do cliente, onde foi feito a decupagem de 2 horas de gameplay e colocado excesso de piadas e memes.',
+        category: 'gameplay',
+        youtubeId: 'DNSII3u8_PE',
+        thumbnail: null,
+        link: 'https://youtu.be/DNSII3u8_PE'
     }
 ];
+
+// Dados do Portfólio Profissional - Aulas universitárias com teleprompter
+// Adicione seus projetos de gravação acadêmica aqui
+const professionalPortfolioData = [
+    /*{
+        id: 1,
+        title: 'Gravação de vídeo aula para universidade',
+        description: 'Gravação de aulas para universidade utilizando teleprompter.',
+        youtubeId: '6ozAGjBTbGc',
+        thumbnail: null,
+        link: 'https://youtu.be/6ozAGjBTbGc'
+    },*/
+    {
+        id: 2,
+        title: 'Stand Up Comedy',
+        description: 'Apresentação de stand up comedy no Bixiga Comedy Club',
+        category: 'redes-sociais',
+        instagramUrl: 'https://www.instagram.com/p/DLS1Qkfyg4B/', // Cole a URL do Reel do Instagram aqui (ex: 'https://www.instagram.com/reel/XYZ789/')
+        thumbnail: null,
+        link: 'https://www.instagram.com/p/DLS1Qkfyg4B/'
+    },
+    {
+        id: 3,
+        title: 'Netflix - 20 fãs de Naruto contra 1 fã de One Piece',
+        description: 'Participação no debate da Netflix sobre animes onde fiz a defesa do anime Naruto contra o Matheus JoyBoy.',
+        instagramUrl: 'https://www.instagram.com/p/DOghazcih7Z/',
+        thumbnail: null,
+        link: 'https://www.instagram.com/p/DOghazcih7Z/'
+    }
+    // Adicione mais itens seguindo o mesmo formato:
+    // {
+    //     id: 2,
+    //     title: 'Nome da aula/disciplina',
+    //     description: 'Descrição do trabalho realizado.',
+    //     youtubeId: 'ID_DO_VIDEO_YOUTUBE',
+    //     thumbnail: null,
+    //     link: 'https://youtu.be/ID_DO_VIDEO'
+    // },
+];
+
+// Initialize professional portfolio grid
+function initProfessionalPortfolio() {
+    const professionalGrid = document.getElementById('professionalGrid');
+    if (!professionalGrid) return;
+
+    professionalGrid.innerHTML = '';
+
+    professionalPortfolioData.forEach(item => {
+        const portfolioItem = document.createElement('div');
+        portfolioItem.className = 'portfolio-item';
+
+        const thumbnail = document.createElement('div');
+        thumbnail.className = 'portfolio-thumbnail';
+
+        if (item.youtubeId) {
+            const img = document.createElement('img');
+            let currentQuality = 0;
+            
+            const loadThumbnail = () => {
+                img.src = getYouTubeThumbnailUrl(item.youtubeId, currentQuality);
+            };
+            
+            img.alt = item.title;
+            img.onerror = function() {
+                // Tentar próxima qualidade
+                currentQuality++;
+                if (currentQuality < 5) {
+                    loadThumbnail();
+                }
+            };
+            
+            loadThumbnail();
+            thumbnail.appendChild(img);
+
+            const playOverlay = document.createElement('div');
+            playOverlay.className = 'play-overlay';
+            const playButton = document.createElement('div');
+            playButton.className = 'play-button';
+            playOverlay.appendChild(playButton);
+            thumbnail.appendChild(playOverlay);
+
+            thumbnail.style.cursor = 'pointer';
+            thumbnail.addEventListener('click', () => {
+                window.open(`https://www.youtube.com/watch?v=${item.youtubeId}`, '_blank');
+            });
+        } else if (item.instagramUrl) {
+            // Criar container para o Instagram
+            const instagramContainer = document.createElement('div');
+            instagramContainer.style.width = '100%';
+            instagramContainer.style.height = '100%';
+            instagramContainer.style.display = 'flex';
+            instagramContainer.style.flexDirection = 'column';
+            instagramContainer.style.alignItems = 'center';
+            instagramContainer.style.justifyContent = 'center';
+            instagramContainer.style.background = 'linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)';
+            instagramContainer.style.position = 'relative';
+            
+            // Ícone do Instagram
+            const instagramIcon = document.createElement('div');
+            instagramIcon.innerHTML = `
+                <svg width="60" height="60" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2" y="2" width="20" height="20" rx="5" stroke="white" stroke-width="2" fill="none"/>
+                    <circle cx="12" cy="12" r="4" stroke="white" stroke-width="2" fill="none"/>
+                    <circle cx="17.5" cy="6.5" r="1.5" fill="white"/>
+                </svg>
+            `;
+            instagramContainer.appendChild(instagramIcon);
+            
+            // Texto
+            const instagramText = document.createElement('div');
+            instagramText.textContent = 'Ver no Instagram';
+            instagramText.style.color = 'white';
+            instagramText.style.marginTop = '10px';
+            instagramText.style.fontWeight = '600';
+            instagramText.style.fontSize = '0.9rem';
+            instagramContainer.appendChild(instagramText);
+            
+            thumbnail.appendChild(instagramContainer);
+            
+            // Adicionar overlay com botão de play
+            const playOverlay = document.createElement('div');
+            playOverlay.className = 'play-overlay';
+            const playButton = document.createElement('div');
+            playButton.className = 'play-button';
+            playOverlay.appendChild(playButton);
+            thumbnail.appendChild(playOverlay);
+            
+            // Ao clicar, abrir Reel no Instagram
+            thumbnail.style.cursor = 'pointer';
+            thumbnail.addEventListener('click', () => {
+                window.open(item.instagramUrl, '_blank');
+            });
+        } else if (item.thumbnail) {
+            const img = document.createElement('img');
+            img.src = item.thumbnail;
+            img.alt = item.title;
+            thumbnail.appendChild(img);
+        } else {
+            const placeholder = document.createElement('div');
+            placeholder.style.width = '100%';
+            placeholder.style.height = '100%';
+            placeholder.style.display = 'flex';
+            placeholder.style.alignItems = 'center';
+            placeholder.style.justifyContent = 'center';
+            placeholder.style.color = 'var(--text-gray)';
+            placeholder.textContent = 'Sem preview';
+            thumbnail.appendChild(placeholder);
+        }
+
+        const info = document.createElement('div');
+        info.className = 'portfolio-info';
+
+        const tag = document.createElement('span');
+        tag.className = 'portfolio-tag';
+        tag.textContent = 'Participação em Gravações';
+
+        const title = document.createElement('h3');
+        title.textContent = item.title;
+
+        const description = document.createElement('p');
+        description.textContent = item.description;
+
+        const link = document.createElement('a');
+        if (item.youtubeId) {
+            link.href = `https://www.youtube.com/watch?v=${item.youtubeId}`;
+        } else if (item.instagramUrl) {
+            link.href = item.instagramUrl;
+        } else {
+            link.href = item.link || '#';
+        }
+        link.className = 'portfolio-link';
+        link.textContent = 'Ver Projeto →';
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+
+        info.appendChild(tag);
+        info.appendChild(title);
+        info.appendChild(description);
+        info.appendChild(link);
+
+        portfolioItem.appendChild(thumbnail);
+        portfolioItem.appendChild(info);
+        professionalGrid.appendChild(portfolioItem);
+    });
+}
 
 // Initialize portfolio grid
 function initPortfolio() {
@@ -126,12 +329,22 @@ function initPortfolio() {
         if (item.youtubeId) {
             const img = document.createElement('img');
             // URL da thumbnail do YouTube em alta qualidade
-            img.src = `https://img.youtube.com/vi/${item.youtubeId}/maxresdefault.jpg`;
+            let currentQuality = 0;
+            
+            const loadThumbnail = () => {
+                img.src = getYouTubeThumbnailUrl(item.youtubeId, currentQuality);
+            };
+            
             img.alt = item.title;
             img.onerror = function() {
-                // Se maxresdefault não existir, usar hqdefault
-                this.src = `https://img.youtube.com/vi/${item.youtubeId}/hqdefault.jpg`;
+                // Tentar próxima qualidade
+                currentQuality++;
+                if (currentQuality < 5) {
+                    loadThumbnail();
+                }
             };
+            
+            loadThumbnail();
             thumbnail.appendChild(img);
             
             // Adicionar overlay com botão de play
@@ -259,12 +472,19 @@ function initPortfolio() {
     });
 }
 
+// Get YouTube thumbnail with fallback qualities
+function getYouTubeThumbnailUrl(youtubeId, quality = 0) {
+    const qualities = ['maxresdefault', 'sddefault', 'hqdefault', 'mqdefault', 'default'];
+    return `https://img.youtube.com/vi/${youtubeId}/${qualities[quality]}.jpg`;
+}
+
 // Get category label in Portuguese
 function getCategoryLabel(category) {
     const labels = {
         'danca': 'Dança',
         'redes-sociais': 'Redes Sociais',
         'cursos': 'Cursos Online',
+        'cultura-pop': 'Cultura Pop',
         'gameplay': 'Gameplay',
         'all': 'Todos'
     };
@@ -331,6 +551,7 @@ const observer = new IntersectionObserver((entries) => {
 // Observe portfolio items and skill cards
 function initializePage() {
     initPortfolio();
+    initProfessionalPortfolio();
     
     // Add fade-in animation to elements
     const animatedElements = document.querySelectorAll('.portfolio-item, .about-image, .about-text');
