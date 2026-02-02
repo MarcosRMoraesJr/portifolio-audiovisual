@@ -17,9 +17,10 @@
                 <span class="logo-text">MM<span class="logo-dot">.</span></span>
             </div>
             <ul class="nav-menu">
-                <li><a href="#inicio">Início</a></li>
+                <li><a href="#inicio">Home</a></li>
+                <li><a href="#trabalhos">Edição de Vídeo</a></li>
+                <li><a href="#profissional">Gravações</a></li>
                 <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#trabalhos">Portfólio</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
             <button class="menu-toggle" aria-label="Toggle menu">
@@ -41,7 +42,39 @@
                 Editor de vídeo e humorista com 12 anos de experiência em comédia. Unindo técnica de edição e sensibilidade para o humor, criando conteúdos que cativam, emocionam e fazem rir.
             </p>
             <div class="hero-buttons">
-                <a href="#trabalhos" class="btn btn-primary">Ver Meus Trabalhos</a>
+                <a href="#trabalhos" class="btn btn-outline">Edição de Vídeo</a>
+                <a href="#profissional" class="btn btn-outline">Gravações Profissionais</a>
+                <a href="https://wa.me/5511964292117" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Entre em Contato</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="trabalhos" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Edição de Vídeo</h2>
+            <p class="section-subtitle">Uma seleção dos meus trabalhos mais recentes.</p>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="danca">Dança</button>
+                <button class="filter-btn" data-filter="cultura-pop">Cultura Pop</button>
+                <button class="filter-btn" data-filter="redes-sociais">Redes Sociais</button>
+                <button class="filter-btn" data-filter="cursos">Cursos Online</button>
+                <button class="filter-btn" data-filter="gameplay">Gameplay</button>
+            </div>
+            <div class="portfolio-grid" id="portfolioGrid">
+                <!-- Portfolio items will be dynamically added via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Portfolio Section - University Classes -->
+    <section id="profissional" class="portfolio portfolio-professional">
+        <div class="container">
+            <h2 class="section-title">Gravações Profissionais</h2>
+            <p class="section-subtitle">Material de gravações utilizando teleprompter. Produção audiovisual de alta qualidade.</p>
+            <div class="portfolio-grid" id="professionalGrid">
+                <!-- Professional portfolio items will be added via JavaScript -->
             </div>
         </div>
     </section>
@@ -70,26 +103,8 @@
                     <p>
                         Se você precisa de alguém que entende tanto de técnica quanto de timing, ritmo e storytelling, vamos conversar. Prometo que a reunião será mais interessante que a maioria das reuniões de edição que você já teve.
                     </p>
-                    <a href="#contato" class="btn btn-outline">Vamos Conversar</a>
+                    <a href="https://wa.me/5511964292117" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Entre em Contato</a>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Portfolio Section -->
-    <section id="trabalhos" class="portfolio">
-        <div class="container">
-            <h2 class="section-title">Meu Portfólio</h2>
-            <p class="section-subtitle">Uma seleção dos meus trabalhos mais recentes.</p>
-            <div class="portfolio-filters">
-                <button class="filter-btn active" data-filter="all">Todos</button>
-                <button class="filter-btn" data-filter="danca">Dança</button>
-                <button class="filter-btn" data-filter="redes-sociais">Redes Sociais</button>
-                <button class="filter-btn" data-filter="cursos">Cursos Online</button>
-                <button class="filter-btn" data-filter="gameplay">Gameplay</button>
-            </div>
-            <div class="portfolio-grid" id="portfolioGrid">
-                <!-- Portfolio items will be dynamically added via JavaScript -->
             </div>
         </div>
     </section>
