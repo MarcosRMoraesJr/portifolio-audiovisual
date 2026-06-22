@@ -41,6 +41,70 @@ const portfolioItems = [];
 // O ID é: dQw4w9WgXcQ
 const portfolioData = [
     {
+        id: 10,
+        title: 'Espetáculo "O Bar - Improviso Long Form"',
+        description:'Espetáculo feito no Teatro Improclube, onde foi feito a gravação, edição e correção de cor.',
+        category: 'danca',
+        youtubeId: 'RQ6Zk4_hdIM',
+        thumbnail: null,
+        link: 'https://www.youtube.com/watch?v=RQ6Zk4_hdIM'
+    },
+    {
+        id: 11,
+        title: 'Espetáculo "Olimpiadas - (Jogos de Improviso)"',
+        description: 'Espetáculo feito no Teatro Improclube, onde foi feito a gravação, edição e correção de cor.',
+        category: 'danca',
+        youtubeId: '2MM6Iv3phsM',
+        thumbnail: null,
+        link: 'https://www.youtube.com/watch?v=2MM6Iv3phsM'
+    },
+    {
+        id: 12,
+        title: 'Espetáculo "Improflow - Formatura Formação do Improvisador Profissional 5"',
+        description: 'Espetáculo feito no Teatro Improclube, onde foi feito a edição e correção de cor.',
+        category: 'danca',
+        youtubeId: 'Ksh_dW1Fxn0',
+        thumbnail: null,
+        link: 'https://www.youtube.com/watch?v=Ksh_dW1Fxn0&t=28s'
+    },
+    {
+        id: 13,
+        title: 'Corte "Improflow - Formatura Formação do Improvisador Profissional 5"',
+        description: 'Corte do espetáculo feito no Teatro Improclube, onde foi feito a edição e correção de cor.',
+        category: 'danca',
+        youtubeId: 't4ZVYBTfxcE',
+        thumbnail: null,
+        link: 'https://www.youtube.com/watch?v=t4ZVYBTfxcE'
+    },
+    {
+        id: 14,
+        title: 'Podcast Comédia Sit Down"',
+        description: 'Edição e correção de cor do podcast comédia sit down, episódio com a participação do comediante Marcelo Duque.',
+        category: 'redes-sociais',
+        youtubeId: 'Ul_FF9sGjuQ',
+        thumbnail: null,
+        link: 'https://www.youtube.com/watch?v=Ul_FF9sGjuQ'
+    },
+    {
+        id: 15,
+        title: 'Rafa Macedo - Lin Podcast',
+        description: 'Edição e correção de cor de gravação para redes sociais.',
+        category: 'redes-sociais',
+        youtubeId: 'N75qUVQ4BnU', // Cole a URL do Reel do Instagram aqui (ex: 'https://www.instagram.com/reel/XYZ789/')
+        thumbnail: null,
+        link: 'https://youtube.com/shorts/N75qUVQ4BnU'
+    },
+    {
+        id: 16,
+        title: 'Engenharia da Humanidade',
+        description: 'Edição e correção de cor de gravação para redes sociais.',
+        category: 'redes-sociais',
+        instagramUrl: 'DZgEXv9i10N/', // Cole a URL do Reel do Instagram aqui (ex: 'https://www.instagram.com/reel/XYZ789/')
+        thumbnail: null,
+        link: 'https://www.instagram.com/reel/DZgEXv9i10N/'
+    },
+    {
+        
         id: 1,
         title: 'Festival "Místicos Hana Hassani"',
         description: 'Gravação, edição e correção de cor do festival, utilizando a câmera Osmo Pocket 3 e T5i da Canon. Música com som estourado, pois foi enviado dessa forma para o serviço.',
@@ -121,45 +185,6 @@ const portfolioData = [
         thumbnail: null,
         link: 'https://youtu.be/DNSII3u8_PE'
     }
-];
-
-// Dados do Portfólio Profissional - Aulas universitárias com teleprompter
-// Adicione seus projetos de gravação acadêmica aqui
-const professionalPortfolioData = [
-    /*{
-        id: 1,
-        title: 'Gravação de vídeo aula para universidade',
-        description: 'Gravação de aulas para universidade utilizando teleprompter.',
-        youtubeId: '6ozAGjBTbGc',
-        thumbnail: null,
-        link: 'https://youtu.be/6ozAGjBTbGc'
-    },*/
-    {
-        id: 2,
-        title: 'Stand Up Comedy',
-        description: 'Apresentação de stand up comedy no Bixiga Comedy Club',
-        category: 'redes-sociais',
-        instagramUrl: 'https://www.instagram.com/p/DLS1Qkfyg4B/', // Cole a URL do Reel do Instagram aqui (ex: 'https://www.instagram.com/reel/XYZ789/')
-        thumbnail: null,
-        link: 'https://www.instagram.com/p/DLS1Qkfyg4B/'
-    },
-    {
-        id: 3,
-        title: 'Netflix - 20 fãs de Naruto contra 1 fã de One Piece',
-        description: 'Participação no debate da Netflix sobre animes onde fiz a defesa do anime Naruto contra o Matheus JoyBoy.',
-        instagramUrl: 'https://www.instagram.com/p/DOghazcih7Z/',
-        thumbnail: null,
-        link: 'https://www.instagram.com/p/DOghazcih7Z/'
-    }
-    // Adicione mais itens seguindo o mesmo formato:
-    // {
-    //     id: 2,
-    //     title: 'Nome da aula/disciplina',
-    //     description: 'Descrição do trabalho realizado.',
-    //     youtubeId: 'ID_DO_VIDEO_YOUTUBE',
-    //     thumbnail: null,
-    //     link: 'https://youtu.be/ID_DO_VIDEO'
-    // },
 ];
 
 // Initialize professional portfolio grid
@@ -481,7 +506,7 @@ function getYouTubeThumbnailUrl(youtubeId, quality = 0) {
 // Get category label in Portuguese
 function getCategoryLabel(category) {
     const labels = {
-        'danca': 'Dança',
+        'danca': 'Espetáculos',
         'redes-sociais': 'Redes Sociais',
         'cursos': 'Cursos Online',
         'cultura-pop': 'Cultura Pop',
